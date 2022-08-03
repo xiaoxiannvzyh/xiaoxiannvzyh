@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+</head>
+<h1>学生用户注册</h1>
+<body>
+    <form action="xxx.php" method="get">
+        <table  width="500">
+            <tr>
+                <td>姓名：</td>
+                <td>
+                    <input type="text" name="mingzi" value="请输入真实姓名">
+                </td>
+            </tr>
+            <!-- 第一行 sex-->
+            <tr>
+                <td>性别:</td>
+                <td>
+                    <input type="radio" name="sex" id="nan" value="男"><label for="nan"><img src="https://photo.16pic.com/00/20/69/16pic_2069369_b.jpg" width="20"> 男</label>
+                    <input type="radio" name="sex" id="nv" value="女" ><label for="nv"><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.51yuansu.com%2Fpic3%2Fcover%2F02%2F21%2F25%2F59afadc4761cd_610.jpg&refer=http%3A%2F%2Fpic.51yuansu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1662111582&t=8d821732369b9ea59c7e2d7d758dab5b" width="30">女</label>
+                </td>
+            </tr>
+            <!-- 第二行 birthday-->
+            <tr>
+                <td>生日：</td>
+                <td>
+                    <select>
+                        <option>请选择年份</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                        
+                    </select>
+                    <select>
+                        <option>请选择月份</option>
+                        <option>1月</option>
+                        <option>2月</option>
+                        <option>3月</option>
+                        <option>4月</option>
+                        <option>5月</option>
+                        <option>6月</option>
+                        <option>7月</option>
+                        <option>8月</option>
+                        <option>9月</option>
+                        <option>10月</option>
+                        <option>11月</option>
+                        <option>12月</option>
+                    </select>
+                    <select>
+                        <option>请选择日</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+    
+                </td>
+            </tr>
+            <!-- 第三行 address-->
+            <tr>
+                <td>地址：</td>
+                <td><input type="text" value="请输入所在地区" name="address">
+                </td>
+            </tr>
+            <!-- 第四行 education background-->
+            <tr>
+                <td>学历：</td>   
+                <td>
+                    <input type="text" value="请输入当前学历" name="education background">
+                </td>
+            </tr>
+            <!-- 第五行 habbies-->
+            <tr>
+                <td>兴趣爱好：</td>
+                <td>
+                    <input type="checkbox" name="habbies" value="羽毛球">羽毛球
+                    <input type="checkbox" name="habbies" value="篮球">蓝球
+                    <input type="checkbox" name="habbies" value="足球">足球
+                    <input type="checkbox" name="habbies" value="其他">其他
+                </td>
+            </tr>
+            <!-- 第六行 自我介绍-->
+            <tr>
+                <td>自我介绍：</td>
+                <td> 
+                    <textarea aria-valuemax="400" name="ziwojieshao"></textarea>*少于200字
+                </td>
+            </tr>
+            <!-- 第七行 注册按钮-->
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="立刻注册">
+                </td>
+            </tr>
+            <!-- 第七行 注意事项 -->
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" checked="checked"><a href="条款.html" target="_blank">我认真阅读并同意注册条款</a>
+                </td>
+            </tr>
+            <!-- 第八行 -->
+            <tr>
+                <td></td>
+                <td>
+                    <input type="reset" value="重新填写">
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+    
+</body>
+</html>
